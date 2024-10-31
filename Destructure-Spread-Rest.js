@@ -28,6 +28,8 @@ func3(arr)
 
 //Spread and Rest operators (...) are used to destructure large number of items quickly
 
+// This operator creates a new array/object, this is also called shallow copy so any change in original array/object will not affect the new one
+
 function func4(arr) {
   const [first, ...rest] = arr //first extracts the first element and rest is put in another array, rest should be at the end of destructure
   

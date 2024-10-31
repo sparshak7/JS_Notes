@@ -1,7 +1,7 @@
 //Lexical Scoping and Closures
 
 let a = 6; //access this if inner context 'a' not present (this switching of context is lexical scoping)
-function f1 () {
+function f1 () { //Here f1 is a Higher Order Function (HOF) as it returns another function
   let a = 5; //inner context 'a', lexical scope
   return function f2() {
     console.log(`${a}`)

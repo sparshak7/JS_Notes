@@ -1,6 +1,6 @@
 //Currying - lock values in separate functions for reusability
 
-function f1(a) {
+function f1(a) { //Here f1 is a Higher Order Function (HOF) as it returns another function
   console.log(a)
   return function f2(b) {
     console.log(a+b)

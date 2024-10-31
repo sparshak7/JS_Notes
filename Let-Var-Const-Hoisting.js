@@ -33,7 +33,7 @@ function f2() {
 const e = 50
 // e = 78 //TypeError: assignment to constant variable error
 
-//Hoisting is a JS mechanism where during memory phase, all variables and methods are are allocated memory in the execution context so even if they are declared at the end, their definition exists in the context. Once the exectution phase starts, values are assigned to them. Methods have their own execution context
+//Hoisting is a JS mechanism where during memory phase, all variables and methods are allocated memory in the execution context so even if they are declared anywhere, their definition exists in the context. Once the execution phase starts, values are assigned to them. Methods have their own execution context
 
 //Var is hoisted and can be accessed even before initialisation (undefined by default)
 console.log(f)

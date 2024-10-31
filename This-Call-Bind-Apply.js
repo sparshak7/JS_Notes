@@ -58,7 +58,7 @@ const obj5 = {
   name: "V",
 
   getName: () => {
-    console.log(this) //empty object
+    console.log(this) //empty object in NodeJS, undefined in strict mode, window in browser
   }
 }
 
